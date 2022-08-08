@@ -4,6 +4,8 @@
   text-align: center;
   margin: 0;
   border-radius: 15px;
+  border-top: 5px solid #3483eb;
+  overflow: hidden;
   padding: 0;
   width: 200px;
   display: flex;

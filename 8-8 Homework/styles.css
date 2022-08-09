@@ -1,0 +1,77 @@
+.instructions {
+    list-style-type: square;
+}
+
+.nav-menu {
+    background-color: #3483eb;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .nav-menu li {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.25rem;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: left;
+    border-top: 5px solid #3483eb;
+  }
+  
+  .nav-menu li a:link {
+    text-decoration: none;
+  }
+  
+  .nav-menu li a:link,
+  .nav-menu li a:visited {
+    color: white;
+  }
+  
+  .nav-menu li:hover {
+    background-color: #345beb;
+    border-radius: 10px;
+    border-top: 5px solid #5234eb;
+  }
+  
+  .nav-menu li:hover a:link,
+  .nav-menu li:hover a:visited {
+    color: white;
+  }
+
+  [class|= "first"] {
+    background-color: grey;
+  }
+  
+  [class$="sixty"] {
+    background-color: lightblue;
+  }
+
+  [class*="-cost"] {
+    background-color: green;
+  }
+
+  [class^="last"] {
+    font-weight: bold;
+    background: red;
+    text-decoration: underline;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table, tr, th, td {
+    border: 2px ridge black;
+    border-collapse: collapse;
+  }
+
+  .fixed-cost, .variable-cost-tax {
+    font-size: 1.25rem; 
+  }
